@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/goit-js-hw-11/",
+    "build": "vite build --base=/goit-js-hw-12/",
     "preview": "vite preview"
   },
   "devDependencies": {
@@ -17,6 +17,7 @@
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
   "license": "ISC",
   "dependencies": {
+    "axios": "^1.7.7",
     "izitoast": "^1.4.0",
     "simplelightbox": "^2.14.3",
     "vite-plugin-full-reload": "^1.2.0",
