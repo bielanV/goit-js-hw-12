@@ -102,8 +102,6 @@ const loadMorePhoto = async event => {
 
     countElLi = document.querySelectorAll('.gallery-card');
 
-    console.log('Loaded images:', countElLi.length);
-console.log('Total hits:', loadResponse.data.totalHits);
 
     if (loadResponse.data.totalHits < countElLi.length) {
       loadMoreBtnEl.classList.add('is-hidden');
