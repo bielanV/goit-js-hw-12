@@ -104,7 +104,7 @@ const loadMorePhoto = async event => {
     console.log(loadResponse.data.totalHits);
     console.log(countElLi.length)
 
-    if (loadResponse.data.totalHits < countElLi.length) {
+    if (loadResponse.data.totalHits <= countElLi.length) {
       loadMoreBtnEl.classList.add('is-hidden');
       iziToast.show({
         message: `We're sorry, but you've reached the end of search results.`,
