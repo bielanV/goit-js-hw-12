@@ -101,7 +101,8 @@ const loadMorePhoto = async event => {
     });
 
     countElLi = document.querySelectorAll('.gallery-card');
-
+    console.log(loadResponse.data.totalHits);
+    console.log(countElLi.length)
 
     if (loadResponse.data.totalHits < countElLi.length) {
       loadMoreBtnEl.classList.add('is-hidden');
